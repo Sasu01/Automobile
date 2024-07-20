@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.sub{
+    background-image: url('aventodor.jpg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 60px); /* Adjust height considering navbar height */
+    text-align: center;
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+
+}
+
+.main .sub .h1{
+    color: white;
+    background-color: blue;
+}
+.sub .btn{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color:#333;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+h1{
+    font-family: "Playwrite NL", cursive;
+    
+}
+
+a{
+    color: black;
+}
+li{
+    font-family:"Playwrite RO", cursive; ;
+    
+}
+   
+html{
+    background-color: rgb(255, 254, 253);
+}
+
+
+
+.H{
+    background-color: 
+}
+
+.container{
+    padding: 2rem;
+}
+
+.slider-wrapper{
+    position: relative;
+    max-width: 48rem ;
+    margin: 0 auto;
+}
+
+.slider{
+    display: flex;
+    aspect-ratio: 16 / 9;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1,5rem 3rem -0.75rem hsla( 0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+}
+
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align: strat;
+    object-fit: cover;
+
+
+}
+.slider nav{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+     
+}
+.slider nav a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color: #fff;
+    opacity: 0.75;
+    transition: opacity ease 250ms;
+
+
+}
+ .slider-nav a: hover{
+    opacity: 1;
+
+ }
+
+.NV{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+
+}
+li, a, button{
+    font-family: "Montsterrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+}
+.nav__links{
+    list-style: none;
+}
+.nav__links{
+    display: flex;
+    margin-right: 20px ;
+    padding: 0px 20px;
+}
+.nav__links li a {
+    transition: all  0.3s ease 0s;
+    margin-right: 30px;
+}
+.nav__links li a:hover{
+    color:#333 ;
+}
+
+button{
+    padding: 9px 25px;
+    background-color:#333;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+button:hover{
+    background-color: rgba(0, 136, 169,0.8 );
+}
+
+body{
+    color: black;
+    font-family: Impact, Haettenschweiler, ;
+}
